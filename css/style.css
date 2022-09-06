@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Dirt&display=swap');
+
+/* setting up */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* header */
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: #f3b03f;
+    position: fixed;
+    z-index: 99999;
+}
+#w-header{
+    width: 1000px;
+    height: 80px;
+    /* background-color:#C07E0C; */
+    margin: auto;
+
+}
+.logo{
+    width: 200px;
+    height: 80px;
+    /* background-color: #F4BB57; */
+    float: left;
+    text-align: center;
+    line-height: 80px;
+}
+/* .logo a{
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 800;
+    color: #2f5e68;
+} */
+.nav{
+    width: 600px;
+    height: 80px;
+    /* background-color: #F4BB57; */
+    float: right;
+    text-align: center;
+    line-height: 80px;
+}
+.nav ul li{
+    display: inline;
+    text-decoration: none;
+}
+.nav ul li a{
+    margin: 0px 5px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffff;
+    transition: 250ms;
+    text-shadow: -2px 3px 1px #2f5e68;
+}
+.nav ul li a:hover{
+    color: #ed393c;
+}
+#home{
+    background-color: #ed393c;
+    padding: 0px 13px;
+    border-radius: 50px;
+    color: #fff;
+    text-shadow: none;
+    /* text-shadow: -2px 3px 1px #fff; */
+}
+
+/* background-1 */
+#background-1{
+    width: 100%;
+    height: 600px;
+    background-color: #f3b03f;
+    background-image: url(../assets/ff-bc-cropped.png);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: 1050px;
+}
+#w-background-1{
+    width: 1000px;
+    height: 600px;
+    /* background-color: rgb(104, 104, 104); */
+    margin: auto;
+    padding-top: 1px;
+}
+.bc-background-1{
+    width: 500px;
+    height: 500px;
+    /* background-color: white; */
+    margin-top: 90px;
+}
+.bc-background-1 h2{
+    font-size: 100px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: -5px 5px 1px #2f5e68;
+}
+.bc-background-1 h3{
+    font-size: 28px;
+    color: #fff;
+}
+.bc-background-1 a{
+    font-size: 35px;
+    text-decoration: none;
+    color: #ed393c;
+    display: inline-block;
+    margin-top:20px ;
+    font-weight: 500;
+    transition: 250ms;
+    text-shadow: -2px 3px 1px #2f5e68;
+    
+}
+.bc-background-1 a:hover{
+    color: #fff;
+    transition: 250ms;
+}
+#rr-p{
+    font-size: 30px;
+    font-weight: 600;
+    color: #ed393c;
+    text-shadow: -2px 3px 1px #2f5e68;
+}
+.bc-background-1 p{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* main-1 */
+#main-1{
+    width: 100%;
+    height: 1000px;
+    background-color: #f3b03f
+}
+#w-main-1{
+    width: 1000px;
+    height: 1000px;
+    background-color: #f3b03f;
+    margin: auto;
+    padding-top: 1px;
+}
+.bc-main-1{
+    width: 480px;
+    height: 500px;
+    /* background-color: white; */
+    float: left;
+    margin: 0px 10px;
+    margin-top: 50px;
+}
+.img-bc img{
+    margin: 135px 40px;
+}
+.img-bc-2 img{
+    margin: 65px 140px;
+}
+.under{
+    width: 980px;
+    height: 380px;
+    margin-top: 24px;
+}
+.under h2{
+    font-size: 100px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: -5px 5px 1px #2f5e68;
+    text-align: center;
+}
+.under p{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+/* background-2 */
+#background-2{
+    width: 100%;
+    height: 600px;
+    background-color: #ed393c;
+    /* background-image: url(../assets/background.jpg); */
+}
+
+#w-background-2{
+    width: 1000px;
+    height: 600px;
+    /* background-color: #ed393c; */
+    margin: auto;
+    z-index: 99999;
+    padding-top: 1px;
+}
+.bc-background-2{
+    width: 500px;
+    height: 500px;
+    /* background-color: #ed393c; */
+    margin-top: 100px;
+}
+.bc-background-2 h2{
+    font-size: 100px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: -5px 5px 1px #2f5e68;
+}
+.bc-background-2 h3{
+    font-size: 28px;
+    color: #fff;
+}
+.bc-background-2 a{
+    font-size: 35px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-top:20px ;
+    font-weight: 500;
+    transition: 250ms;
+    text-shadow: -2px 3px 1px #2f5e68;
+    
+}
+.bc-background-2 a:hover{
+    color: #fff;
+    transition: 250ms;
+}
+#rr-p-2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: -2px 3px 1px #2f5e68;
+}
+.bc-background-2 p{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+/* main-2 */
+#main-2{
+    width: 100%;
+    height: 1100px;
+    background-color: #ed393c;
+    z-index: 99999;
+}
+#w-main-2{
+    width: 1000px;
+    height: 1100px;
+    /* background-color: rgb(202, 202, 202); */
+    margin: auto;
+}
+.bc-main-2{
+    width: 480px;
+    height: 500px;
+    /* background-color: white; */
+    float: left;
+    margin: 0px 10px;
+    margin-top: 50px;
+}
+.bc-main-2 img{
+    margin-bottom: 54px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.bc-text-2{
+    width: 480px;
+    height: 200px;
+    /* background-color: #ed393c; */
+
+}
+.bc-text-2 h2{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: -5px 5px 1px #2f5e68;
+    margin-left: 30px;
+}
+.bc-text-2 p{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    /* text-shadow: -5px 5px 1px #2f5e68; */
+    margin-left: 30px;
+}
+
+
+/* footer */
+#footer{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(90, 90, 90);
+    z-index: 99999;
+}
+#w-footer{
+    width: 1000px;
+    height: 450px;
+    background-color: rgb(107, 107, 107);
+    margin: auto;
+}
+.bc-footer{
+    width: 400px;
+    height: 200px;
+    background-color: cyan;
+    float: left;
+    margin-left: 65px;
+    margin-top: 0px;
+}
+.bc-footer h3{
+    text-align: center;
+}
+.fa-brands{
+    font-size: 44px;
+    color: black;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: transparent;
+    padding: 10px 10px;
+    border-radius: 50px;
+    transition: 150ms;
+}
+.fa-brands:hover{
+    background-color: #ed393c;
+    transition: 150ms;
+    color: white;
+    
+}
